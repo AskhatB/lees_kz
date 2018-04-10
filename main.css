@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+body{
+    padding : 0;
+    margin: -15px;
+    background: url(image/logoBig.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Century Gothic";
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-wrap{
+    width: 1020px;
+    height: 50px;
+    margin: 80px auto;
+}
+.nav li{
+    width: 255px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    color: #fff;
+    transition: all 0.7s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav li:hover{
+    color: cornflowerblue;
+    transition: all 0.4s;
+}
+.nav ul{
+    list-style: none;
+}
+
+.logo{
+    width: 177px;
+    height: 151px;
+    margin: 0 auto;
+    background: url(image/logo.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.sub_logo{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.logo-top-wrap{
+    width: 270px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.contentblock, .contentblock2, .contentblock3, .contentblock4{
+    width: 1020px;
+    margin: -42px auto;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.75);
+    padding: 150px 0;
+    animation: .7s fadeInUp;
+}
+
+.contentblock2, .contentblock3{
+    color: #fff;
+    display: none;
+    padding: 50px;
+}
+.service-1, .service-2{
+    width: 100%;
+    height: 350px;
+}
+
+.service-1 ul{
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.service-1 img{
+    float: left;
+    margin-left: 50px;
+}
+
+.service-2 ul{
+    margin-left: 80px;
+    margin-top: 175px;
+    background: #fff;
+    width: 200px;
+}
+
+.service-2 img{
+    float: right;
+    background: #fff;
+}
+
+.contentblock2 table, .contentblock3 table{
+    margin: auto;
+}
+
+.contentblock2 table tr th, .contentblock3 table tr th{
+    padding: 60px 45px;
+    text-align: left;
+}
+
+.text_decsription{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+.contacts{
+    width: 1020px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.55);
+
+    width: 600px;
+    margin: 30px auto;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    /*box-sizing:border-box;*/
+}
+
+.works-wrap{
+    width: 100%;
+}
+
+.contentblock4{
+    filter: grayscale(1);
+    display: none;
+    padding: 10px 0;
+}
+
+.works-wrap .row1, .works-wrap .row2, .works-wrap .row3{
+    margin: 0 auto;
+}
+.works-wrap .row1{
+    width: 909px;
+}
+.works-wrap .row2{
+    width: 909px;
+}
+.works-wrap .row3{
+    width: 909px;
+}
+/*2 portfolio*/
+/*.works-wrap .row2{
+    width: 605px;
+    margin-top: 2rem;
+}*/
+
+.works-wrap img{
+    width: 300px;
+}
+
+.socbar img{
+    width:  24px;
+    height: 24px;
+}
+.socbar li{
+    float: left;
+    margin-left: 10px;
+}
+.socbar ul{
+    list-style: none;
+    width: 105px;
+    margin: 0 auto;
+}
+.footer{
+    width: 1020px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+@media screen and (max-width: 1020px){
+    .contentblock, .contentblock2, .contentblock3, .contentblock4{
+        width: 700px;
+        margin: auto;
+    }
+
+    .nav-wrap{
+        width: 700px;
+    }
+
+    .nav ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .nav li{
+        float: none !important;
+    }
+
+    .nav-wrap{
+        width: 500px;
+    }
+
+     .contentblock, .contentblock2, .contentblock3, .contentblock4{
+        width: 500px;
+        margin: auto;
+    }
+
+    .contentblock2 th{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .contentblock, .contentblock2, .contentblock3, .contentblock4{
+        width: 320px;
+        margin: auto;
+    }
+
+    .nav-wrap{
+        width: 320px;
+        height: auto;
+        margin-bottom: 0px !important;
+    }
+
+    .nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
